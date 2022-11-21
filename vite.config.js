@@ -5,11 +5,11 @@ import path from 'path';
 export default defineConfig({
   plugins: [vue()],
   build: {
-    outDir: "v-common-ui",
+    outDir: "vc-common-ui",
     lib: {
       entry: path.resolve(__dirname, "./src/packages/index.js"),
-      name: "v-common-ui",
-      fileName: "v-common-ui"
+      name: "vc-common-ui",
+      fileName: "vc-common-ui"
     },
     rollupOptions: {
       external: ["vue"],
