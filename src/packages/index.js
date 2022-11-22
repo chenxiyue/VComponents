@@ -1,7 +1,9 @@
 import VcTable from "./vc-table/index.vue";
+import VcWaterfall from "./vc-waterfall/index.vue";
 
 const components = [
-	VcTable
+	VcTable,
+	VcWaterfall
 ];
 
 const VCComponent = {
